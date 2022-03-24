@@ -1,0 +1,1106 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF/psSwIwaAf4o=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF/psSwIwaBDkw=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/psTPbgaHnMk=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/psTPbQaFNcI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/psTPbgaInik=",
+									"_parent": {
+										"$ref": "AAAAAAF/psTPbgaHnMk="
+									},
+									"font": "Arial;13;0",
+									"left": 650,
+									"top": 66,
+									"width": 57.8017578125,
+									"height": 26,
+									"text": "Data Extraction",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 56,
+							"width": 77.8017578125,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/psTPbgaInik="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/psTtvgaPRF0=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/psTtvgaNdI8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/psTtvgaQ6po=",
+									"_parent": {
+										"$ref": "AAAAAAF/psTtvgaPRF0="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 178,
+									"width": 88.8671875,
+									"height": 26,
+									"text": "Data Pre-Processing",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 168,
+							"width": 108.8671875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/psTtvgaQ6po="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/psaSpwa+bT4=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/psaSpwa82Oc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/psaSpwa/4lI=",
+									"_parent": {
+										"$ref": "AAAAAAF/psaSpwa+bT4="
+									},
+									"font": "Arial;13;0",
+									"left": 642,
+									"top": 274,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "Data Analysis",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 632,
+							"top": 264,
+							"width": 74.18994140625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/psaSpwa/4lI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/psavKAbHFzQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/psavKAbFuzw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/psavKAbIS4U=",
+									"_parent": {
+										"$ref": "AAAAAAF/psavKAbHFzQ="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 394,
+									"width": 75.638671875,
+									"height": 26,
+									"text": "Data Visualization",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 384,
+							"width": 95.638671875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/psavKAbIS4U="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/psbU0AbQfjg=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/psbU0AbOWHA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/psbU0AbRt5g=",
+									"_parent": {
+										"$ref": "AAAAAAF/psbU0AbQfjg="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 490,
+									"width": 78.0380859375,
+									"height": 39,
+									"text": "Machine Learning Models",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 480,
+							"width": 98.0380859375,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAF/psbU0AbRt5g="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/psdK6QbZU7g=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/psdK6QbXrCU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/psdK6QbaETE=",
+									"_parent": {
+										"$ref": "AAAAAAF/psdK6QbZU7g="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 602,
+									"width": 63.59716796875,
+									"height": 13,
+									"text": "Dashboard",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 592,
+							"width": 83.59716796875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF/psdK6QbaETE="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/ps3NtgcU+hw=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 144,
+							"width": 321,
+							"height": 64,
+							"text": "Data extraction is one of the most crucial parts of our recommendation system as without data, we can't train any model and all our research and automation will go in vain."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/ps3NvAcXIVs=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/ps3NtgcU+hw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psTPbgaHnMk="
+							},
+							"lineStyle": 1,
+							"points": "718:89;910:143"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/ptGbSgcemso=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 240,
+							"width": 321,
+							"height": 90,
+							"text": "Data preprocessing is an integral step in Machine Learning as the quality of data and the useful information that can be derived from it directly affects the ability of our model to learn; therefore, it is extremely important that we preprocess our data before feeding it into our model."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/ptGbUwchh04=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/ptGbSgcemso="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psTtvgaPRF0="
+							},
+							"lineStyle": 1,
+							"points": "725:205;863:241"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pt62UQcnvRI=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 360,
+							"width": 321,
+							"height": 90,
+							"text": "Data analysis is important in research because it makes studying data a lot simpler and more accurate. It helps the researchers straightforwardly interpret the data so that researchers don't leave anything out that could help them derive insights from it."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pt62Xgcq5kc=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pt62UQcnvRI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psaSpwa+bT4="
+							},
+							"lineStyle": 1,
+							"points": "706:299;888:359"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pt7p+AcuIes=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 488,
+							"width": 321,
+							"height": 77,
+							"text": "Data visualization helps to tell stories by curating data into a form easier to understand, highlighting the trends and outliers. A good visualization tells a story, removing the noise from data and highlighting the useful information."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pt7qBgcxWK8=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pt7p+AcuIes="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psavKAbHFzQ="
+							},
+							"lineStyle": 1,
+							"points": "712:422;907:487"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/puDsJgdC4yk=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 152,
+							"width": 148,
+							"height": 38,
+							"text": "From Jan 10, 2022 to Jan 31, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/puDsQAdF9zg=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/puDsJgdC4yk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psTPbgaHnMk="
+							},
+							"lineStyle": 1,
+							"points": "639:96;515:151"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/puTXtQdI0o4=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 592,
+							"width": 321,
+							"height": 51,
+							"text": "We will use Machine Learning Algorithms to train our model to recommend similar questions posed by other individuals."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/puTXxgdLPkM=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/puTXtQdI0o4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psbU0AbQfjg="
+							},
+							"lineStyle": 1,
+							"points": "714:524;937:591"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pucnqwdTzBU=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 664,
+							"width": 321,
+							"height": 51,
+							"text": "Lastly, we will build a dashboard where our users can enter their question and our model will provide the answers."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pucnwAdWzEA=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pucnqwdTzBU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psdK6QbZU7g="
+							},
+							"lineStyle": 1,
+							"points": "700:623;897:663"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pukbHAdd/WI=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 256,
+							"width": 145,
+							"height": 38,
+							"text": "From Feb 1, 2022 to Feb 15, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pukbLwdg17w=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pukbHAdd/WI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psTtvgaPRF0="
+							},
+							"lineStyle": 1,
+							"points": "615:213;517:255"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pumkRAdlN3s=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 344,
+							"width": 145,
+							"height": 38,
+							"text": "From Feb 16, 2022 to Feb 28, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pumkWQdoWgU=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pumkRAdlN3s="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psaSpwa+bT4="
+							},
+							"lineStyle": 1,
+							"points": "631:300;521:343"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/puoesQd2lMU=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 432,
+							"width": 153,
+							"height": 38,
+							"text": "From March 1, 2022 to March 22, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/puoeyAd51H8=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/puoesQd2lMU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psavKAbHFzQ="
+							},
+							"lineStyle": 1,
+							"points": "615:416;537:433"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/puq67Qd/7m0=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 520,
+							"width": 145,
+							"height": 38,
+							"text": "From March 23, 2022 to April 15, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/puq7AgeCSlQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/puq67Qd/7m0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psbU0AbQfjg="
+							},
+							"lineStyle": 1,
+							"points": "615:516;545:527"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/putPlgeI6aY=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 616,
+							"width": 145,
+							"height": 38,
+							"text": "From April 16, 2022 to May 2, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/putPrQeLE+U=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/putPlgeI6aY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psdK6QbZU7g="
+							},
+							"lineStyle": 1,
+							"points": "615:619;545:626"
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/puvqwgeTcOM=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/puvqwgeRzmQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/puvqwweUPf0=",
+									"_parent": {
+										"$ref": "AAAAAAF/puvqwgeTcOM="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 698,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "Testing",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 688,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF/puvqwweUPf0="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pu51GweaVfY=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 736,
+							"width": 321,
+							"height": 51,
+							"text": "To see if our model is functioning efficiently, Fixing any repetitions that may have happened, and prolonging the dataset by providing new questions."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pu51MQed6SI=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pu51GweaVfY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/puvqwgeTcOM="
+							},
+							"lineStyle": 1,
+							"points": "690:710;863:736"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/pu52BQegbew=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 728,
+							"width": 145,
+							"height": 38,
+							"text": "From May 3, 2022 to May 15, 2022"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/pu52HgejpnM=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/pu52BQegbew="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/puvqwgeTcOM="
+							},
+							"lineStyle": 1,
+							"points": "615:713;545:729"
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/pvZ7GQgX9VI=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/pvZ7FwgVsts="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/pvZ7GwgYpUg=",
+									"_parent": {
+										"$ref": "AAAAAAF/pvZ7GQgX9VI="
+									},
+									"model": {
+										"$ref": "AAAAAAF/pvZ7FwgVsts="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 690,
+									"top": 127,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/pvZ7GQgX9VI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/psTtvgaPRF0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psTPbgaHnMk="
+							},
+							"lineStyle": 2,
+							"points": "676:101;676:168",
+							"nameLabel": {
+								"$ref": "AAAAAAF/pvZ7GwgYpUg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/pvaEoQggeMQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/pvaEoAgeZvM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/pvaEoQghz7g=",
+									"_parent": {
+										"$ref": "AAAAAAF/pvaEoQggeMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/pvaEoAgeZvM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 683,
+									"top": 231,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/pvaEoQggeMQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/psaSpwa+bT4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psTtvgaPRF0="
+							},
+							"lineStyle": 2,
+							"points": "669:213;669:264",
+							"nameLabel": {
+								"$ref": "AAAAAAF/pvaEoQghz7g="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/pvaMSggpAWo=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/pvaMSggnsWo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/pvaMSggqFUg=",
+									"_parent": {
+										"$ref": "AAAAAAF/pvaMSggpAWo="
+									},
+									"model": {
+										"$ref": "AAAAAAF/pvaMSggnsWo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 681,
+									"top": 339,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/pvaMSggpAWo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/psavKAbHFzQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psaSpwa+bT4="
+							},
+							"lineStyle": 2,
+							"points": "667:309;667:384",
+							"nameLabel": {
+								"$ref": "AAAAAAF/pvaMSggqFUg="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/pvaXZwgy4t4=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/pvaXZwgwEAw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/pvaXZwgz2wI=",
+									"_parent": {
+										"$ref": "AAAAAAF/pvaXZwgy4t4="
+									},
+									"model": {
+										"$ref": "AAAAAAF/pvaXZwgwEAw="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 677,
+									"top": 447,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/pvaXZwgy4t4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/psbU0AbQfjg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psavKAbHFzQ="
+							},
+							"lineStyle": 2,
+							"points": "663:429;663:480",
+							"nameLabel": {
+								"$ref": "AAAAAAF/pvaXZwgz2wI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/pvalMwg7zy4=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/pvalMgg5SsQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/pvalMwg8N0k=",
+									"_parent": {
+										"$ref": "AAAAAAF/pvalMwg7zy4="
+									},
+									"model": {
+										"$ref": "AAAAAAF/pvalMgg5SsQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 676,
+									"top": 558,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/pvalMwg7zy4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/psdK6QbZU7g="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psbU0AbQfjg="
+							},
+							"lineStyle": 2,
+							"points": "662:538;662:592",
+							"nameLabel": {
+								"$ref": "AAAAAAF/pvalMwg8N0k="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/pvaspAhE1Oo=",
+							"_parent": {
+								"$ref": "AAAAAAF/psSwIwaBDkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF/pvasowhCvXY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/pvaspAhF0mo=",
+									"_parent": {
+										"$ref": "AAAAAAF/pvaspAhE1Oo="
+									},
+									"model": {
+										"$ref": "AAAAAAF/pvasowhCvXY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 670,
+									"top": 655,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/pvaspAhE1Oo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/puvqwgeTcOM="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/psdK6QbZU7g="
+							},
+							"lineStyle": 2,
+							"points": "656:637;656:688",
+							"nameLabel": {
+								"$ref": "AAAAAAF/pvaspAhF0mo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/psTPbQaFNcI=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Data Extraction",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/pvZ7FwgVsts=",
+							"_parent": {
+								"$ref": "AAAAAAF/psTPbQaFNcI="
+							},
+							"source": {
+								"$ref": "AAAAAAF/psTPbQaFNcI="
+							},
+							"target": {
+								"$ref": "AAAAAAF/psTtvgaNdI8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/psTtvgaNdI8=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Data Pre-Processing",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/pvaEoAgeZvM=",
+							"_parent": {
+								"$ref": "AAAAAAF/psTtvgaNdI8="
+							},
+							"source": {
+								"$ref": "AAAAAAF/psTtvgaNdI8="
+							},
+							"target": {
+								"$ref": "AAAAAAF/psaSpwa82Oc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/psaSpwa82Oc=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Data Analysis",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/pvaMSggnsWo=",
+							"_parent": {
+								"$ref": "AAAAAAF/psaSpwa82Oc="
+							},
+							"source": {
+								"$ref": "AAAAAAF/psaSpwa82Oc="
+							},
+							"target": {
+								"$ref": "AAAAAAF/psavKAbFuzw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/psavKAbFuzw=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Data Visualization",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/pvaXZwgwEAw=",
+							"_parent": {
+								"$ref": "AAAAAAF/psavKAbFuzw="
+							},
+							"source": {
+								"$ref": "AAAAAAF/psavKAbFuzw="
+							},
+							"target": {
+								"$ref": "AAAAAAF/psbU0AbOWHA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/psbU0AbOWHA=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Machine Learning Models",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/pvalMgg5SsQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/psbU0AbOWHA="
+							},
+							"source": {
+								"$ref": "AAAAAAF/psbU0AbOWHA="
+							},
+							"target": {
+								"$ref": "AAAAAAF/psdK6QbXrCU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/psdK6QbXrCU=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Dashboard",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/pvasowhCvXY=",
+							"_parent": {
+								"$ref": "AAAAAAF/psdK6QbXrCU="
+							},
+							"source": {
+								"$ref": "AAAAAAF/psdK6QbXrCU="
+							},
+							"target": {
+								"$ref": "AAAAAAF/puvqwgeRzmQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/puvqwgeRzmQ=",
+					"_parent": {
+						"$ref": "AAAAAAF/psSwIwaAf4o="
+					},
+					"name": "Testing"
+				}
+			]
+		}
+	]
+}
