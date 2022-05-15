@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit_authenticator as st_auth
 import pickle
+print(pickle.format_version)
 
 # Page Configuration
 st.set_page_config(page_title='Tech Query Recommendation', layout = "centered")
