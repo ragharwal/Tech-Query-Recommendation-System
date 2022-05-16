@@ -26,11 +26,11 @@ The proposed method for this project is to extract data by scraping from differe
 ### Plan of Work
 - Data Extraction: In this phase we would collect and extract data from the web resouces.
 - Data Pre-Processing: Here we will preprocess the data and clen for further analysis and model building.
-- Data Analysis: This phase includes analyzing the data using various methiods to make it simpler and gain insights. 
+- Data Analysis: This phase includes analyzing the data using various methods to make it simpler and gain insights. 
 - Data Visualization: In this the visualization of data would place using graphs and other techniques used for data visualization.
 - Applying Machine Learning Models: Here the models will be trained using training dataset to provide recommendations to the user. 
-- Building a Dashboard : Here comes the phase were the web user interface will for the user ask query.
-- Testing : Finally the build model will be tested using test dataset.
+- Building a Dashboard : Here comes the phase where the web user interface will ask for the user ask query.
+- Testing : Finally the built model will be tested using test dataset.
 
 
 
