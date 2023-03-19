@@ -1,7 +1,6 @@
 import streamlit as st
 import streamlit_authenticator as st_auth
 import pickle
-print(pickle.format_version)
 
 # Page Configuration
 st.set_page_config(page_title='Tech Query Recommendation', layout = "centered")
@@ -16,9 +15,11 @@ def recommend(query):
     index = data[data['ques_title'] == query].index[0]
     distances = sorted(list(enumerate(similarity[index])),reverse=True,key = lambda x: x[1])
     recommend_ques = []
-    for i in distances[1:12]:
-        print(data.iloc[i[0]].ques_title)
+    ques_link = []
+    for i in distances[1:11]:
+        # print(data.iloc[i[0]].ques_title)
         recommend_ques.append(data.iloc[i[0]].ques_title)
+        ques_link.append(data.iloc[i[0]].ques_link)
     return recommend_ques
 
 # Credentials DB
@@ -39,8 +40,10 @@ if authentication_status:
     selected_ques = st.selectbox("Select a question", ques_list)
     if st.button("Recommend"):
         recommend_ques = recommend(selected_ques)
+        ques_link = recommend(selected_ques)
         st.success("Recommended Questions")
-        st.write(recommend_ques)
+        for i in range (len(recommend_ques)):
+            st.write(i+1, recommend_ques[i])
 
 elif authentication_status == False:
     st.error('Username or Password is incorrect')
