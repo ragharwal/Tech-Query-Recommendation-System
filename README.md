@@ -26,17 +26,18 @@ The proposed method for this project is to extract data by scraping from differe
 ### Plan of Work
 - Data Extraction: In this phase we would collect and extract data from the web resouces.
 - Data Pre-Processing: Here we will preprocess the data and clen for further analysis and model building.
-- Data Analysis: This phase includes analyzing the data using various methiods to make it simpler and gain insights. 
+- Data Analysis: This phase includes analyzing the data using various methods to make it simpler and gain insights. 
 - Data Visualization: In this the visualization of data would place using graphs and other techniques used for data visualization.
 - Applying Machine Learning Models: Here the models will be trained using training dataset to provide recommendations to the user. 
-- Building a Dashboard : Here comes the phase were the web user interface will for the user ask query.
-- Testing : Finally the build model will be tested using test dataset.
+- Building a Dashboard : Here comes the phase where the web user interface will ask for the user ask query.
+- Testing : Finally the built model will be tested using test dataset.
 
 
-
-
-
+#### [Minor Presentation](https://docs.google.com/presentation/d/10dNxYYlMpSSvdeNdcCqulxHoetiDqElG/edit?usp=sharing&ouid=116782974680338476639&rtpof=true&sd=true)
+#### [SRS](https://drive.google.com/file/d/13cAB-Teaulyjt4XZPWsszadVJLlFAHw-/view?usp=sharing)
+#### [Synposis](https://drive.google.com/file/d/1RbXQjYk-y1xYjBfZeEmVAJq1CqhinEZU/view?usp=sharing)
+#### [Models](https://drive.google.com/drive/folders/1GfhX2KE53NtKlMDmC8rYktCSGRL28C-K?usp=sharing)
 #### [Extracted Dataset](https://drive.google.com/drive/folders/156uVD5QsDzNgCgacL73hbFWYw0mn1iWZ?usp=sharing)
-#### [Synposis](https://docs.google.com/document/d/1HxZGO5Ynkd66lCbPhEEi7h8khouLApbL/edit?usp=sharing&ouid=116782974680338476639&rtpof=true&sd=true)
-#### [Mid-Semester Presenatation](https://docs.google.com/presentation/d/1T_3iBM7dmQuNJnKj0Sr6XIC3y5Qan8D7/edit?usp=sharing&ouid=116782974680338476639&rtpof=true&sd=true)
+
+
 
